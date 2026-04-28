@@ -50,9 +50,20 @@ Config location:
 
 ### OpenAI Codex
 
+Direct MCP setup:
+
 ```bash
 codex mcp add tendem --env TENDEM_API_KEY=<your-api-key> -- uvx tendem-mcp
 ```
+
+Plugin setup from this repository:
+
+```bash
+codex plugin marketplace add .
+TENDEM_API_KEY=<your-api-key> codex
+```
+
+Then open `/plugins`, select the `Tendem MCP` marketplace, and install `Tendem`.
 
 ### OpenCode
 

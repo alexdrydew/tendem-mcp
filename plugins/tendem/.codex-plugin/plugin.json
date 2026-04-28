@@ -1,0 +1,37 @@
+{
+  "name": "tendem",
+  "version": "0.1.9",
+  "description": "Codex plugin wrapper for the Tendem MCP server.",
+  "author": {
+    "name": "Toloka",
+    "url": "https://tendem.ai"
+  },
+  "homepage": "https://tendem.ai",
+  "repository": "https://github.com/toloka/tendem-mcp",
+  "license": "Apache-2.0",
+  "keywords": [
+    "tendem",
+    "mcp",
+    "tasks",
+    "human-agent",
+    "task-management"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Tendem",
+    "shortDescription": "Delegate tasks to human experts from Codex.",
+    "longDescription": "Create, manage, and track Tendem tasks through the existing tendem-mcp server. Use this when work needs a human expert for research, data collection, content, design, or task execution.",
+    "developerName": "Toloka",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://tendem.ai",
+    "privacyPolicyURL": "https://tendem.ai/privacy",
+    "defaultPrompt": [
+      "Use Tendem to create a task for a human expert.",
+      "Use Tendem to check the status of my delegated tasks."
+    ]
+  }
+}

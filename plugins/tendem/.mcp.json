@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "tendem": {
+      "command": "uvx",
+      "args": [
+        "tendem-mcp"
+      ],
+      "env_vars": [
+        "TENDEM_API_KEY",
+        "TENDEM_API_URL",
+        "TENDEM_DEBUG"
+      ],
+      "startup_timeout_sec": 30,
+      "tool_timeout_sec": 300
+    }
+  }
+}

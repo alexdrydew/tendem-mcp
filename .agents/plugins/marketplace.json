@@ -1,0 +1,20 @@
+{
+  "name": "tendem-mcp",
+  "interface": {
+    "displayName": "Tendem MCP"
+  },
+  "plugins": [
+    {
+      "name": "tendem",
+      "source": {
+        "source": "local",
+        "path": "./plugins/tendem"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
