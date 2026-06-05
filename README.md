@@ -3,6 +3,10 @@
 
 MCP server for [Tendem](https://tendem.ai/), AI + Human Agent to get tasks done.
 
+> [!WARNING]
+> This repository contains the legacy local MCP server and should no longer be used.
+> Use the remote MCP server instead: https://mcp.tendem.ai/mcp
+
 To manage API keys, log into your Tendem account and visit https://agent.tendem.ai/tokens
 
 ## Desktop Extension (One-Click Install)
